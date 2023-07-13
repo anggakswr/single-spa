@@ -18,10 +18,14 @@
   -->
 
   <main>
-    <route default>
-      <application name="@single-spa/welcome"></application>
+    <div class="grid grid-cols-2 items-center min-h-screen gap-x-8 px-8">
       <application name="@primaku/react"></application>
-      <application name="@primaku/vue"></application>
+      <application name="@primaku/react2"></application>
+    </div>
+
+    <route default>
+      <!-- <application name="@single-spa/welcome"></application> -->
+      <!-- <application name="@primaku/vue"></application> -->
     </route>
   </main>
 </single-spa-router>
